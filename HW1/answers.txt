@@ -1,0 +1,9 @@
+1. Going through all the articles manually and searching for mentions of these people would take at least a few hours, and even if we had finished checking manually,
+ it would no longer be relevant because another article might already been uploaded.
+
+2. After the exercise, we understood that there are many repetitive tasks that we do, and we can automate them to save a lot of work.
+ Other places where it would be useful to use automation include searching for texts that contain certain words, such as for research on a specific topic, and so on.
+ 
+3. If we want to repeat this command code every hour we can set up a corn job to the operating system to execute the bash file every hour.
+   To deal with articles that have already been scanned by our code, we can keep track of the last time your code scanned the website,
+   and only search for new articles that have been posted since then. This can be done by saving the timestamp of the last scan and using it to filter out articles that were posted before that time.
